@@ -1,0 +1,495 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref1"
+            },
+            "Name": "Standard - DE",
+            "Country__c": "DE",
+            "IsActive": true,
+            "IsStandard": false,
+            "PricebookEntries": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef1"
+                        },
+                        "UnitPrice": 0,
+                        "Percent__c": 1.7,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtzAAG"
+                            },
+                            "ProductCode": "ATM"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef2"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtkAAG"
+                            },
+                            "ProductCode": "STD"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef3"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtuAAG"
+                            },
+                            "ProductCode": "COST"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef4"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYu4AAG"
+                            },
+                            "ProductCode": "CARDREPLACE"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref2"
+            },
+            "Name": "Standard Price Book",
+            "IsActive": true,
+            "IsStandard": true,
+            "PricebookEntries": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef5"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYu4AAG"
+                            },
+                            "ProductCode": "CARDREPLACE"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef6"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtkAAG"
+                            },
+                            "ProductCode": "STD"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef7"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYu4AAG"
+                            },
+                            "ProductCode": "CARDREPLACE"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef8"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtlAAG"
+                            },
+                            "ProductCode": "BLACK"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef9"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtkAAG"
+                            },
+                            "ProductCode": "STD"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef10"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtzAAG"
+                            },
+                            "ProductCode": "ATM"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef11"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtpAAG"
+                            },
+                            "ProductCode": "METAL"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef12"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtlAAG"
+                            },
+                            "ProductCode": "BLACK"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef13"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtuAAG"
+                            },
+                            "ProductCode": "COST"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef14"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtpAAG"
+                            },
+                            "ProductCode": "METAL"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef15"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtuAAG"
+                            },
+                            "ProductCode": "COST"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef16"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtzAAG"
+                            },
+                            "ProductCode": "ATM"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref3"
+            },
+            "Name": "Metal - DE",
+            "Country__c": "DE",
+            "IsActive": true,
+            "IsStandard": false,
+            "PricebookEntries": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref4"
+            },
+            "Name": "Metal - UK",
+            "Country__c": "UK",
+            "IsActive": true,
+            "IsStandard": false,
+            "PricebookEntries": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef17"
+                        },
+                        "UnitPrice": 0,
+                        "Percent__c": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtzAAG"
+                            },
+                            "ProductCode": "ATM"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef18"
+                        },
+                        "UnitPrice": 45,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYu4AAG"
+                            },
+                            "ProductCode": "CARDREPLACE"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef19"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtpAAG"
+                            },
+                            "ProductCode": "METAL"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef20"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtuAAG"
+                            },
+                            "ProductCode": "COST"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref5"
+            },
+            "Name": "Black - DE",
+            "Country__c": "DE",
+            "IsActive": true,
+            "IsStandard": false,
+            "PricebookEntries": {
+                "records": []
+            }
+        },
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref6"
+            },
+            "Name": "Standard - UK",
+            "Country__c": "UK",
+            "IsActive": true,
+            "IsStandard": false,
+            "PricebookEntries": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef21"
+                        },
+                        "UnitPrice": 0,
+                        "Percent__c": 1.7,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtzAAG"
+                            },
+                            "ProductCode": "ATM"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef22"
+                        },
+                        "UnitPrice": 6,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYu4AAG"
+                            },
+                            "ProductCode": "CARDREPLACE"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef23"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtkAAG"
+                            },
+                            "ProductCode": "STD"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef24"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtuAAG"
+                            },
+                            "ProductCode": "COST"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Pricebook2",
+                "referenceId": "Pricebook2Ref7"
+            },
+            "Name": "Black - UK",
+            "Country__c": "UK",
+            "IsActive": true,
+            "IsStandard": false,
+            "PricebookEntries": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef25"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtuAAG"
+                            },
+                            "ProductCode": "COST"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef26"
+                        },
+                        "UnitPrice": 6,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYu4AAG"
+                            },
+                            "ProductCode": "CARDREPLACE"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef27"
+                        },
+                        "UnitPrice": 0,
+                        "Percent__c": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtzAAG"
+                            },
+                            "ProductCode": "ATM"
+                        }
+                    },
+                    {
+                        "attributes": {
+                            "type": "PricebookEntry",
+                            "referenceId": "PricebookEntryRef28"
+                        },
+                        "UnitPrice": 0,
+                        "Product2": {
+                            "attributes": {
+                                "type": "Product2",
+                                "url": "/services/data/v45.0/sobjects/Product2/01t17000004QYtlAAG"
+                            },
+                            "ProductCode": "BLACK"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}

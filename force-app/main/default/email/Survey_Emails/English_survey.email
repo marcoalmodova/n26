@@ -1,0 +1,1 @@
+Hey {!Contact.FirstName}, please fill out our survey: {!LEFT(Contact.Link, LEN(Contact.Link) - 15)}survey/{!Contact.Id}

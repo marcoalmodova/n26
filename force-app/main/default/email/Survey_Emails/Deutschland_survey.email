@@ -1,0 +1,1 @@
+Hey {!Contact.FirstName}, bitte fülle unsere Umfrage aus: {!LEFT(Contact.Link, LEN(Contact.Link) - 15)}survey/{!Contact.Id}

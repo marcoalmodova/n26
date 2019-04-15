@@ -1,0 +1,35 @@
+<template>
+    <template if:true={ready}>
+            <lightning-card title={mainProduct} icon-name="custom:custom14">
+                <table class="slds-table slds-table_cell-buffer slds-table_bordered">
+                    <thead>
+                        <tr class="slds-line-height_reset">
+                            <th class="" scope="col">
+                                <div class="slds-truncate" title={label.productNameLabel}>{label.productNameLabel}</div>
+                            </th>
+                            <th class="" scope="col">
+                                <div class="slds-truncate" title={label.productCostLabel}>{label.productCostLabel}</div>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <template for:each={addProducts} for:item='item'>
+                            <tr class="slds-hint-parent" key={item.id}>
+                                <td data-label={label.productNameLabel}>
+                                    <div class="slds-truncate">{item.Name}</div>
+                                </td>
+                                <td data-label={label.productCostLabel}>
+                                    <template if:true={item.isPercent}>
+                                            <div class="slds-truncate"><lightning-formatted-number value={item.Percent__c} format-style="percent" maximum-fraction-digits="2"></lightning-formatted-number></div>
+                                    </template>
+                                    <template if:false={item.isPercent}>
+                                            <div class="slds-truncate"><lightning-formatted-number value={item.UnitPrice} format-style="currency" currency-code={item.CurrencyIsoCode}/></lightning-formatted-number></div>
+                                    </template>
+                                </td>
+                            </tr>
+                        </template>
+                    </tbody>
+                </table>
+            </lightning-card>
+    </template>
+</template>

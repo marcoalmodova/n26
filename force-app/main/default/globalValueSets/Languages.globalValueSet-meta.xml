@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>en</fullName>
+        <default>true</default>
+        <label>en</label>
+    </customValue>
+    <customValue>
+        <fullName>de</fullName>
+        <default>false</default>
+        <label>de</label>
+    </customValue>
+    <masterLabel>Languages</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

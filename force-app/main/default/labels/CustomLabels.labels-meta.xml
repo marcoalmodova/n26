@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>ProductCost</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ProductCost</shortDescription>
+        <value>Product Cost</value>
+    </labels>
+    <labels>
+        <fullName>ProductName</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ProductName</shortDescription>
+        <value>Product</value>
+    </labels>
+</CustomLabels>
